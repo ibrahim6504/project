@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>poem and poetry</title>
+
+    <link rel="stylesheet"href="StyleSheet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet"href="gallerystylesheet.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+  </head>
+
+<style>
+ 
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(31, 31, 31);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: w;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: rgb(247, 247, 247);
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6c400, 0 0 40px #e6c400, 0 0 50px #e6c400, 0 0 60px #e6c400, 0 0 70px #e6c400;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffde4d, 0 0 40px #ffde4d, 0 0 50px #ffde4d, 0 0 60px #ffde4d, 0 0 70px #ffde4d, 0 0 80px #ff4da6;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+</style>
+
+<body background="background.jpg" style="background-repeat:no-repeat; background-size:100%">
+<div class="bg-div">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="asd.png" href="SENCOR_Logo.ico">
+<title>SENCOR</title>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">poem and poetry</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+     <a class="nav-link active" aria-current="page" href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/home.html.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/about%20us.html">about us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/gallery.html">gallery</a>
+           
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/login.html">login</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <center> <span style="color:burlywood; font-size:40px; font-family:'Arial Rounded MT'; text-decoration:underline;"> Poem and Poetry </span></center> 
+
+        <img src="img.JPG" width="200px" height="200px" />
+            <p  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">we are offering you best poetry</p>
+            <p style="color:red">
+               <h2  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Poetry has a long and varied history, evolving differentially across the globe. It dates back at least to prehistoric times with hunting poetry in Africa and to panegyric and elegiac court poetry of the empires of the Nile, Niger, and Volta River valleys.</h2>
+
+               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img1.png" width="1400" height="500" class="d-block w-100" alt="PIC">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img2.jpg" width="1400" height="500" class="d-block w-100" alt="PIC">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img3.jfif" width="1400" height="500" class="d-block w-100" alt="PIC">
+                  </div>
+                </div>
+               
+              </div>
+        
+            <h1> poetry list </h1>
+        <ol>
+
+            <li>Sonnet</li>
+            <li> Acrostic</li>
+            <li>Villanelle</li>
+            <li>Limerick</li>
+
+
+            <ul>
+                <li>Ode</li>
+                <li>Elegy</li>
+                <li>wolf and bear</li>
+                <li>almost late to school</li>
+
+                <dl>
+                    <dt>Ode
+                    <dd> An ode (from Ancient Greek: ᾠδή, romanized: ōdḗ) is a type of lyric poetry.</dd></dt
+
+                    <dt> Elegy
+                    <dd>An elegy is a poem of serious reflection, and in English literature usually a lament for the dead.
+                     However, according to The Oxford Handbook of the Elegy, </dd></dt>
+
+                    <dt>wolf and bear 
+                     <dd>Wolf & Bear is an American post-hardcore band from Sacramento, California. Formed in 2013, the band consists of vocalists Marcus 
+                      Cisneros and Tyler Watt, 
+                      guitarists Cameron Nunez and Louie Baltazar, and drummer Jacob Koval.</dd></dt>
+
+                    <dt>almost late to school
+                    <dd>Here is a follow-up to the ever-popular Lunch Money, with
+                       all the clever exuberance and child's-eye view that made the first book an IRA-CBC Children's Choice and reviewers say, "This collection
+                       . . . belongs in every classroom </dd></dt></dl>
+                       <h1 class="glow">THANKS FOR VISIT</h1>
+                       <footer class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-col">
+                                    <h4>CONTACT</h4>
+                                    <ul>
+                         <li><a href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/contact%20us.html">Contact Us</a></li>
+                         <li><a href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/about%20us.html">about us</a></li>
+                         <li><a href="file:///C:/Users/asp.APTECHNK1/Desktop/ibrahim%20poetry%20web/login.html">Login/SignUp</a></li>
+                                    </ul>
+                                </div>
+
+                                
+
+                                <div class="footer-col">
+                                    <h4>BRANDED BOOKS</h4>
+                                    <ul>
+                                        <li><a href="#">story line</a></li>
+                                        <li><a href="#">adventure book</a></li>
+                                        <li><a href="#">horror book</a></li>
+                                        <li><a href="#">poem and poetry</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>POLICY</h4>
+                                    <ul>
+                                        <li><a href="#">Refund Policy</a></li>
+                                        <li><a href="#">Return Policy</a></li>
+                                        <li><a href="#">Terms Of Service</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>follow us</h4>
+                                    <div class="social-links">
+                                        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s|c|318307045135|e|facebook%27|&placement=&creative=318307045135&keyword"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                    
+
+                       
+                  
+                            
+                       
+                   
+                   </body>
+                   </html>

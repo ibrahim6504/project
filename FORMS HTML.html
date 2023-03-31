@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/form%20.html? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS HTML</title>
+</head>
+<body>
+    <h1>Forms of html</h1>
+    <form>
+        \
+                <input type="submit"><table>
+            <tbody><tr>
+                <td><label for="student_id">Enter id</label></td>
+                <td><input type="text" id="student_id"></td>
+            </tr>
+            <tr>
+                <td><label for="Stud_Name">Enter Your Name</label></td>
+                <td><input type="text" id="Stud_Name"> </td>
+            </tr>
+            <tr>
+                <td><label for="Stud_Age">Enter Your Ege</label></td>
+                <td><input type="number" id="Stud_Age"></td>
+            </tr>
+            <tr>
+                <td><label for="Father Name">Father Name</label></td>
+                <td><input type="text" id="Father Name"></td>
+            </tr>
+            <tr><td><label for="student_number">Contact Number</label></td>
+                <td><input type="tel" id="student_number"></td>
+            </tr>
+            <tr>
+                <td><label for="date_birth">Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="yes">Are you Employed Person</label></td>
+                <td><input type="radio" name="Employed" id="yes"><label for="yes">yes</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="Employed" id="No"><label for="No">No</label></td>
+             </tr>
+             <tr>
+                <td><label for="">Select Your Gender</label></td>
+                <td><input type="radio" name="gender" id="Male"><label for="Male">Male</label></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td><input type="radio" name="gender" id="Female"><label for="Female">Female</label></td>
+             </tr>
+             <tr>
+                <td><label for="">Select Your Branch</label></td>
+                <td><select name="Center" id="center">
+                    <option value="N-K">North Karachi</option>
+                    <option value="N-N">North NAzimabad</option>
+                    <option value="S-F">Shara e faisal</option>
+                </select></td>    
+             </tr>
+             <tr>
+                <td><label for="">Select Your Color</label></td>
+                <td><input type="color" name="color" id="color"></td>
+             </tr>
+             <tr>
+                <td><label for="cv">Upload your CV</label></td>
+                <td><input type="file" name="cv" id="cv"></td>
+             </tr>
+             <tr>
+                <td><label for="HTML">Select your Courses</label></td>
+                <td><input type="checkbox" name="HTML" id="HTML">HTML</td>
+             </tr>
+             <tr>
+                <td></td>
+                <td><input type="checkbox" name="CSS" id="CSS"><label for="CSS">CSS </label></td>
+             </tr>
+             <tr>
+                <td></td>
+                <td><input type="checkbox" name="java" id="java"><label for="java">java</label></td>
+             </tr>
+
+
+
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </tbody></table>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</form></body></html>
